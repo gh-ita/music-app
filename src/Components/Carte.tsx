@@ -1,4 +1,3 @@
-import CarteInterface from './CarteInterface.tsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState, useEffect } from 'react';
 interface ArtistInfo {
