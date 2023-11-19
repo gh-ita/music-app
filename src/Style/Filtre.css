@@ -1,0 +1,12 @@
+input {
+    background-color: rgba(239, 94, 16, 0.078);
+    color : rgb(239, 94, 16);
+    border-radius: 17px;
+    padding-left: 10px;
+    outline : none;
+    border: none;
+}
+input::placeholder{
+    color :rgb(239, 94, 16);
+    padding-left: 10px;
+}
