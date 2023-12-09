@@ -11,7 +11,6 @@ function App() {
       <Routes>
       <Route path="/" exact element={<Music/>}>
       </Route>
-      {}
       <Route path = "/favoris" element = {<Favoris/>}>
       </Route>
       </Routes>
