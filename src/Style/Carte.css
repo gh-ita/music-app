@@ -1,0 +1,11 @@
+.songArt{
+    display: flex;
+    justify-content: space-between;
+    align-items:first baseline;
+}
+.icon{
+    color : rgba(255, 0, 0, 0.479);
+}
+.icon:hover{
+    color : red;
+}

@@ -2,9 +2,15 @@
     height : 100%;
     border-radius: 8px;
     background-color:rgba(239, 94, 16, 0.078);
-    
-    
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
 }
 .nav-link{
     color :rgb(239, 94, 16); 
+}
+.container-fluid
+{
+    display: flex;
+    flex-direction: column;
 }

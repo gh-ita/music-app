@@ -1,8 +1,18 @@
+
 .filtreBar{
     margin-top: 20px;
+    margin-bottom: 3%;
     margin-left: 13%;
     height : 10%;
     display: flex;
     gap : 50px;
     align-items: center;
+}
+.musique{
+    margin-left: 16px;
+    justify-content:end;
+    width : 819px;
+    display: flex;
+    flex-wrap: wrap;
+    gap : 20px;
 }

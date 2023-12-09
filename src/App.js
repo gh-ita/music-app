@@ -1,16 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
-import Music from './Components/Music.js'
-
+import Music from './Components/Music.tsx';
+import Favoris from './Components/Favoris.js';
 
 function App() {
+  
   return (
     <>
     <Router>
       <Routes>
       <Route path="/" exact element={<Music/>}>
       </Route>
-      <Route path = "/favoris" exact>
+      {}
+      <Route path = "/favoris" element = {<Favoris/>}>
       </Route>
       </Routes>
     </Router>

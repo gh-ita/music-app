@@ -1,0 +1,12 @@
+.Modal .songArt{
+    display : flex;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    gap : 30px;
+}
+.Modal{
+    display: flex;
+    flex-direction: row-reverse;
+}

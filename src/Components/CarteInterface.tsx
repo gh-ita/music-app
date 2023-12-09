@@ -1,6 +1,7 @@
+import MusicJson from './MusicJson.tsx';
+
 interface CarteInterface{
-    image : string;
-    titre : string;
-    artiste : string;
+    song : MusicJson;
 }
+
 export default CarteInterface;
