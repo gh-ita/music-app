@@ -7,7 +7,7 @@ function App() {
   
   return (
     <>
-    <Router>
+    <Router basename="/music-app">
       <Routes>
       <Route path="/" exact element={<Music/>}>
       </Route>
