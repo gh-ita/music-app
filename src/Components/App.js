@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
-import Music from './Music.tsx';
-import Favoris from './Favoris.js';
+import Music from './Pages/Music.tsx';
+import Favoris from './Pages/Favoris.js';
 
 function App() {
   

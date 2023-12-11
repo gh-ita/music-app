@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import FavoriteCard from './FavoriteCard.tsx';
+import FavoriteCard from '../FavoriteCard.tsx';
 import { useState, useEffect } from 'react';
-import '../Style/Music.css'
+import '../../Style/Music.css'
 
 function Favoris(){
   useEffect(() => {

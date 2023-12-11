@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Filtre from './Filtre.tsx'
-import '../Style/Music.css'
-import Carte from './Carte.tsx'
-import MusicJson from './MusicJson.tsx';
+import Filtre from '../Filtre.tsx'
+import '../../Style/Music.css'
+import Carte from '../Carte.tsx'
+import MusicJson from '../MusicJson.tsx';
 
 function Music() {
     const [titre, setTitre] = useState("");
